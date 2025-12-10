@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
     return (
-        <section className="relative py-20 md:py-32 overflow-hidden bg-background">
+        <section className="relative py-20 md:py-32 overflow-hidden bg-background animate-fade-in-up">
             {/* Background Decorator (Abstract) */}
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
 

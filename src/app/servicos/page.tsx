@@ -90,7 +90,7 @@ const categories = ["Todos", "UI/UX Design", "Desenvolvimento Web", "Aplicativos
 
 export default function ServicosPage() {
     return (
-        <main className="min-h-screen bg-background pb-20">
+        <main className="min-h-screen bg-background pb-20 animate-fade-in-up">
             {/* Header Section */}
             <section className="py-20 text-center bg-muted/20">
                 <div className="container mx-auto px-6">

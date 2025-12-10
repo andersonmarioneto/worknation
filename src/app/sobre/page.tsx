@@ -3,7 +3,7 @@ import { Rocket, Eye, ShieldCheck } from "lucide-react"
 
 export default function SobrePage() {
     return (
-        <main className="min-h-screen bg-background pb-20">
+        <main className="min-h-screen bg-background pb-20 animate-fade-in-up">
             {/* Hero Section */}
             <section className="py-20 md:py-32 text-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-background opacity-50 pointer-events-none" />

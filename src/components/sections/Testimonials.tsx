@@ -25,7 +25,7 @@ const testimonials = [
 
 export function Testimonials() {
     return (
-        <section className="py-20 bg-background">
+        <section className="py-20 bg-background animate-fade-in-up">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">

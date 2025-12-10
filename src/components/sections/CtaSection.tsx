@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function CtaSection() {
     return (
-        <section className="py-20 bg-primary text-primary-foreground relative overflow-hidden">
+        <section className="py-20 bg-primary text-primary-foreground relative overflow-hidden animate-fade-in-up">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]" />
 

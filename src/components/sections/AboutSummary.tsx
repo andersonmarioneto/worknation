@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react"
 
 export function AboutSummary() {
     return (
-        <section className="py-20 bg-muted/30 dark:bg-muted/10">
+        <section className="py-20 bg-muted/30 dark:bg-muted/10 animate-fade-in-up">
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     {/* Text Content */}
